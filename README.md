@@ -1,4 +1,6 @@
-# tinkerhub-dart
+# tinkerhub-flutter
+
+#### Code repo for Tinkerhub Learn-From-Home (Flutter stream) program.  
 
 Task #0 - Problem Statement
 

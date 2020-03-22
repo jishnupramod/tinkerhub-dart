@@ -2,7 +2,7 @@
 
 #### Code repo for Tinkerhub Learn-From-Home (Flutter stream) program.  
 
-Task #0 - Problem Statement
+### Task #0 - Problem Statement
 
   Write a dart class for tech learners and mentors. Should have following methods.   
   * addStacks() : Add a particular stack of interest/expertise.  
@@ -11,7 +11,7 @@ Task #0 - Problem Statement
   * getMentor() : Takes stack and time as params and finds available mentors.     
 
 
-Task #1 - Problem Statement     
+### Task #1 - Problem Statement     
 
 * Create a new flutter project. 
 * Change the color of the demo project. 

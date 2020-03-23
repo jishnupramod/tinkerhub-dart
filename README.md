@@ -19,5 +19,13 @@ Task #1 - Problem Statement
 * Include an extra button in the app which when clicked will decrease the value of the variable by one.  
 
 
+Task #2 - Problem Statement 
+
+Try to convert the design given to an app
+This is the design : https://dribble.com/shots/4534625-Feed-Profile
+
+
+
+
 
 

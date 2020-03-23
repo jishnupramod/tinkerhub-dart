@@ -21,8 +21,8 @@
 
 Task #2 - Problem Statement 
 
-Try to convert the design given to an app
-This is the design : https://dribble.com/shots/4534625-Feed-Profile
+* Try to convert the design given to an app
+  This is the design : https://dribble.com/shots/4534625-Feed-Profile
 
 
 

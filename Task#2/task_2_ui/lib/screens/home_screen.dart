@@ -193,10 +193,11 @@ class _HomescreenState extends State<Homescreen> {
                           child: Align(
                             alignment: Alignment.centerLeft,
                             child: Text("", style: TextStyle(color: Colors.grey[400], fontSize: 14.0))),
-                        )
+                        ),
                       ],
                     )
                   ),
+                  SizedBox(height: 20.0)
                 ],
               ),
             )

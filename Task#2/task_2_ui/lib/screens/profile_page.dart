@@ -114,6 +114,81 @@ class ProfilePage extends StatelessWidget {
                   Icon(Icons.more_horiz, size: 25.0, color: Colors.grey[600],)
                 ],
               ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(
+                left: 30.0,
+                right: 30.0,
+                top: 30.0,
+              ),
+              child: Column(
+                children: <Widget>[
+                  Card(
+                    semanticContainer: true,
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                    child: Image.asset(
+                      'assets/images/photo1.jpg',
+                      fit: BoxFit.fill,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                    elevation: 5,
+                    margin: EdgeInsets.all(10),
+                  ),
+        
+                  Card(
+                    color: Colors.grey[400],
+                    semanticContainer: true,
+                    clipBehavior: Clip.antiAliasWithSaveLayer,
+                    child: Column(
+                      children: <Widget>[
+                        Padding(
+                          padding: const EdgeInsets.only(
+                            left: 10.0,
+                            top: 20.0,
+                            right: 10.0
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            children: <Widget>[
+                              Icon(Icons.reply, size: 20.0, color: Colors.grey[600],),
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  left: 70.0
+                                ),
+                                child: Text('Replied in ', style: TextStyle(color: Colors.grey[600], fontSize: 15.0)),
+                              ),
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  right: 30.0
+                                ),
+                                child: Text('Spirit of Alaska', style: TextStyle(fontWeight: FontWeight.bold)),
+                              ),
+                              Text('2h  ', style: TextStyle(color: Colors.grey[600], fontSize: 15.0))
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(
+                            top: 30.0,
+                            left: 70.0,
+                            right: 20.0,
+                            bottom: 30.0
+                          ),
+                          child: Text('Really high quality stuff man. Can\nyou share your equipment? Consid-\nering a few upgrades :)', style: TextStyle(fontSize: 12.0, color: Colors.grey[600])),
+                        )
+                      ],
+                    ),
+                    
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                    elevation: 5,
+                    margin: EdgeInsets.all(10),
+                  )
+                ],
+              ),
             )
           ],
         )
